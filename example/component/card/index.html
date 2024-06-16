@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr" data-fr-theme>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Carte - Design System</title>
+    <meta name="theme-color" content="#000091"><!-- Défini la couleur de thème du navigateur (Safari/Android) -->
+    <link rel="apple-touch-icon" href="../../../dist/favicon/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="../../../dist/favicon/favicon.svg" type="image/svg+xml">
+    <!-- si favicon.ico peut etre placé à la racine du serveur, retirer la ligne ci-dessous -->
+    <link rel="shortcut icon" href="../../../dist/favicon/favicon.ico" type="image/x-icon"><!-- 32×32 -->
+    <link rel="manifest" href="../../../dist/favicon/manifest.webmanifest" crossorigin="use-credentials">
+    <!-- Modifier les chemins relatifs des favicons en fonction de la structure du projet -->
+    <!-- Dans le fichier manifest.webmanifest aussi, modifier les chemins vers les images -->
+    <link href="../../../dist/core/core.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/link/link.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/button/button.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/badge/badge.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/tag/tag.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/scheme/scheme.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/accordion/accordion.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/form/form.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/card/card.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/radio/radio.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/component/modal/modal.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/utility/utility.main.css" rel="stylesheet" file="main">
+    <link href="../../../dist/core/core.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/link/link.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/button/button.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/badge/badge.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/tag/tag.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/accordion/accordion.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/form/form.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/card/card.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/radio/radio.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/component/modal/modal.legacy.css" rel="stylesheet" file="legacy">
+    <link href="../../../dist/utility/utility.legacy.css" rel="stylesheet" file="legacy">
+    <style>
+        code[class*="language-"],
+        pre[class*="language-"] {
+            white-space: pre-wrap;
+        }
+
+        .example-controls {
+            z-index: 100000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 8px 16px -16px rgba(0, 0, 0, 0.32);
+        }
+
+        .example-controls>button {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .example-controls__content {
+            padding: 16px;
+            background-color: var(--background-elevated-white);
+        }
+
+        .example-controls .fr-collapse--expanded~[aria-expanded] {
+            display: none;
+        }
+
+        .example-controls .fr-collapse:not(.fr-collapse--expanded)~button:not([aria-expanded]) {
+            display: none;
+        }
+
+        .example-controls [class*="-form-group"] {
+            margin-bottom: 0;
+        }
+
+        .fr-display-button {
+            position: fixed;
+            bottom: 3.5rem;
+            right: 2rem;
+        }
+
+        @media screen and (-ms-high-contrast: active),
+        (-ms-high-contrast: none) {
+
+            /* IE10+ specific styles go here */
+            .example-controls {
+                display: none;
+            }
+        }
+
+    </style>
+    <script>
+        window['dsfr'] = {
+            verbose: false,
+            //mode: 'manual'
+        }
+
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/toolbar/prism-toolbar.min.css" rel="stylesheet" />
+</head>
+
+<body id="top" class="fr-mb-12w">
+    <div class="fr-grid-row fr-mb-3w">
+        <div class="fr-col fr-col-md-6">
+            <div class="fr-card fr-enlarge-link">
+                <div class="fr-card__body">
+                    <div class="fr-card__content">
+                        <h3 class="fr-card__title">
+                            <a href="#">Qu'est-ce que le Pass Culture et comment l’obtenir ?</a>
+                        </h3>
+                        <p class="fr-card__desc">La carte donne des aperçus cliquables d’une page de contenu à l’utilisateur. Elle fait généralement partie d'une collection ou liste d’aperçus de contenu similaires. La carte n’est jamais présentée de manière isolée.</p>
+                    </div>
+                </div>
+                <div class="fr-card__header">
+                    <div class="fr-card__img">
+                        <img class="fr-responsive-img" src="/img/placeholder.16x9.png" alt="[À MODIFIER - vide ou texte alternatif de l’image]">
+                        <!-- L’alternative de l’image (attribut alt) doit toujours être présente, sa valeur peut-être vide (image n’apportant pas de sens supplémentaire au contexte) ou non (porteuse de texte ou apportant du sens) selon votre contexte -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../../../dist/core/core.module.js"></script>
+    <script type="module" src="../../../dist/scheme/scheme.module.js"></script>
+    <script type="module" src="../../../dist/component/accordion/accordion.module.js"></script>
+    <script type="module" src="../../../dist/component/modal/modal.module.js"></script>
+    <script type="module" src="../../../dist/component/display/display.module.js"></script>
+    <script type="text/javascript" nomodule src="../../../dist/legacy/legacy.nomodule.js"></script>
+    <script type="text/javascript" nomodule src="../../../dist/core/core.nomodule.js"></script>
+    <script type="text/javascript" nomodule src="../../../dist/component/accordion/accordion.nomodule.js"></script>
+    <script type="text/javascript" nomodule src="../../../dist/component/modal/modal.nomodule.js"></script>
+    <script type="text/javascript" nomodule src="../../../dist/component/display/display.nomodule.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/toolbar/prism-toolbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+  background: #597244; }
+
+@font-face {
+  font-family: "Marianne";
+  font-weight: "bold";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-Bold.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "BoldItalic";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-BoldItalic.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-BoldItalic.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "ExtraBold";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-ExtraBold.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-ExtraBold.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "ExtraBoldItalic";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-ExtraBoldItalic.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-ExtraBoldItalic.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "Light";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-Light.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-Light.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "LightItalic";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-LightItalic.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-LightItalic.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "Medium";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-Medium.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-Medium.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "MediumItalic";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-MediumItalic.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-MediumItalic.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "Regular";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-Regular.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "RegularItalic";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-RegularItalic.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-RegularItalic.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "Thin";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-Thin.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-Thin.otf") format("opentype"); }
+@font-face {
+  font-family: "Marianne";
+  font-weight: "ThinItalic";
+  src: local("Marianne"), url("../../typo/marianne/Marianne-ThinItalic.otf") format("opentype") tech(color-COLRv1), url("../../typo/marianne/Marianne-ThinItalic.otf") format("opentype"); }
+
+/*# sourceMappingURL=style.css.map */
